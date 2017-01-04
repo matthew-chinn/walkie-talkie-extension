@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+
+    "name": "Walkie-Talkie",
+    "description": "This extension lets someone send messages to a partner that will appear on webpages that they visit",
+    "version": "1.0",
+
+    "browser_action": {
+        "default_icon": "walkietalkie.png",
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [ {
+        "js": [ "jquery.min.js" ],
+        "css": [ "style.css" ],
+        "matches": [ "http://*/*", "https://*/*"]
+    }],
+    "permissions": [
+        "http://localhost:3000/"
+    ]
+}
