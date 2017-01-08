@@ -10,7 +10,7 @@
         "default_popup": "popup.html"
     },
     "content_scripts": [ {
-        "js": [ "jquery.min.js" ],
+        "js": [ "jquery.min.js", "script.js" ],
         "css": [ "style.css" ],
         "matches": [ "http://*/*", "https://*/*"]
     }],

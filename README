@@ -1,0 +1,5 @@
+TODO:
+STYLE msgs
+make getMessage method compatible with both http and https
+
+Correctly render after Delete/post (send message) requests (seems to work now?)
