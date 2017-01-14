@@ -31,6 +31,6 @@ function renderHtml(html) {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-    getPage("http://localhost:3000", 'GET');
-    //    getPage("http://walkie-talkie.herokuapp.com", 'GET');
+    //getPage("http://localhost:3000", 'GET');
+    getPage("http://walkie-talkie.herokuapp.com", 'GET');
 });
