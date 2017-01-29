@@ -9,14 +9,11 @@ $(document).ready(function(){
 //pass in the id for the profile
 function getMessage(callback){
     var x = new XMLHttpRequest();
-    var u = "https://walkie-talkie.herokuapp.com/";
     //var u ="http://localhost:3000/"; 
+    var u = "https://walkie-talkie.herokuapp.com/";
 
-    /*var url =  u + id + "/get-message";
-    x.open("DELETE", url);
-    */
     var url = u + "next-message";
-    x.open("GET", url);
+    x.open("DELETE", url);
     x.responseType = 'json';
     x.onload = function() {
         // Parse and process the response from Google Image Search.
