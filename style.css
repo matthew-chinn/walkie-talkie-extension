@@ -1,0 +1,13 @@
+p.wt-msg{
+    top: 0px;
+    position: absolute;
+    padding: 5px;
+    width: 95%;
+    font-size: 25px;
+    margin: 0 auto;
+    text-align: center;
+    background: #8c0e0e;
+    color: white;
+    border: 1px solid black;
+    z-index: 1000;
+}
