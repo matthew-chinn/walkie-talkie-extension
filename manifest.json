@@ -12,7 +12,8 @@
     "content_scripts": [ {
         "js": [ "jquery.min.js", "script.js" ],
         "css": [ "style.css" ],
-        "matches": [ "http://*/*", "https://*/*"]
+        "matches": [ "http://*/*", "https://*/*"],
+        "exclude_matches": [ "http://walkie-talkie.herokuapp.com/*", "https://walkie-talkie.herokuapp.com/*", "http://localhost:3000/*" ]
     }],
     "permissions": [
         "http://localhost:3000/"
