@@ -21,6 +21,7 @@ function getPage(url, method) {
 
 function renderHtml(html) {
     $('div#content').html(html);
+    
     $('div#content a').bind("click", function(){
         link = $(this).attr('href');
         method = $(this).attr('data-method');
@@ -28,6 +29,7 @@ function renderHtml(html) {
             method = "GET";
         getPage(link, method);
     });
+    
 }
 
 document.addEventListener('DOMContentLoaded', function() {

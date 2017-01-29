@@ -1,5 +1,8 @@
 TODO:
-STYLE msgs
-make getMessage method compatible with both http and https
+STYLE extension
 
-Correctly render after Delete/post (send message) requests (seems to work now?)
+Correctly render after Delete/post (send message, logout) requests - UNCAUGHT
+(IN PROMISE) INVALID TAB ERROR
+
+Make message appear in random location on webpage? or be triggered by an icon
+click
